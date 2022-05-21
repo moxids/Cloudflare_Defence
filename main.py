@@ -130,7 +130,6 @@ def get_graphql_data():
             }
     try:
         r = post(url=graphql_url, headers=headers, json=data, timeout=timeout)
-        print(r.text)
     except Exception as e:
         logging.error('发送请求到 GraphQL API: 失败')
         logging.debug(e)
