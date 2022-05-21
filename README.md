@@ -25,3 +25,4 @@ Use GraphQL to grab Cloudflare firewall event, calculate the number of requests 
 本项目欢迎提交Pr
 有事请群组询问，我不喜欢PM
 Telegram Groups: https://t.me/moxid_chat
+Telegram Channel: https://t.me/moxid_channel
