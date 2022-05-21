@@ -14,12 +14,12 @@ ruleid = ''
 mode = 'block'  # block | challenge | managed_challenge | js_challenge | whitelist
 access_level = 'zone'  # zone | user  封禁涉及范围 *zone为单个域名下的规则 user为账户下的所有域名下的规则
 
-frequency = 20  # 单位: 秒 每次请求所获取的时间范围 *推荐frequency与request_rate一致
+frequency = 60  # 单位: 秒 每次请求所获取的时间范围 *推荐frequency与request_rate一致
 request_rate = 5 # 单位: 秒 每次请求的时间间隔 *推荐frequency与request_rate一致
-delay = 10 # 单位: 秒 请求时间延迟 *Cloudflare数据更新并非实时
+delay = 15 # 单位: 秒 请求时间延迟 *Cloudflare数据更新并非实时
 timeout = 5 # 单位: 秒 超时时间
-rate_limit = 5  # 单位: 次 IP在单位时间(frequency)内的访问次数限制
-threads_num = 2  # 单位: 线程 线程池中的线程数量
+rate_limit = 20  # 单位: 次 IP在单位时间(frequency)内的访问次数限制
+threads_num = 3  # 单位: 线程 线程池中的线程数量
 
 log_level = logging.ERROR # DEBUG | INFO | WARNING | ERROR | CRITICAL  日志等级 *后台运行推荐设置为ERROR
 
