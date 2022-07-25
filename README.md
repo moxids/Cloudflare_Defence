@@ -36,4 +36,4 @@ Use GraphQL to grab Cloudflare firewall event, calculate the number of requests 
 
 Telegram: https://t.me/moxids
 
-Telegram Channel: https://t.me/moxid_channel
+Telegram Channel: https://t.me/moxids_channel
